@@ -1,0 +1,2 @@
+db:
+ url: update http://localhost:3306

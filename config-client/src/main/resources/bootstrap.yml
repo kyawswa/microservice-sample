@@ -1,0 +1,7 @@
+#The net result of this behavior is that all client applications that want to consume the Config Server need a bootstrap.yml
+# (or an environment variable) with the server address set in spring.cloud.config.uri (it defaults to "http://localhost:8888").
+#https://cloud.spring.io/spring-cloud-config/multi/multi__spring_cloud_config_client.html
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8080
